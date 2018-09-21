@@ -16,7 +16,7 @@ Kode yang baik adalah kode yang bisa dibaca dan dipakai oleh orang lain.
 
 Answer:
 
-1.
+1.saya membuat aplikasi antar makanan menggunakan beberapa tools seperti ruby on rails,postman,vscode,postgresql dan gem
 
 2.
 
@@ -26,3 +26,4 @@ Answer:
   - Create User : saat saya testing di postman,production dan mock servernya output jsonnya berbeda,ketika saya create user di                   production output jsonnya sudah benar,ketika saya create user di mock server output jsonnya terdapat                           bug,contohnya ketika saya create user abc@gmail.com tapi output jsonnya bot@gmail.com, 
                   seharusnya output jsonnya abc@gmail.com.
   - Show Data By Id : sama halnya seperti create user,di show data by id juga terdapat bug di production dan mock server,ketika                   saya mecoba menampilkan data by id nya,seharusnya keluar data id yang saya cari outputnya json,tapi outputnya                   jadi html,seharusnya outputnya json data id yang cari.
+    
