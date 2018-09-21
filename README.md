@@ -1,5 +1,5 @@
 # README
-Questions:
+Question:
 1.Disebutkan seorang client membutuhkan layanan aplikasi antar makanan. Dan Anda diminta untuk membuat desain sistem dengan kriteria pelanggan hanya dilayani dengan mobile apps.
   Desainlah stack backend dan micro service layanan tersebut beserta tools dan alasan mengapa memilih design dan tools    tersebut.
 
@@ -12,3 +12,16 @@ Sertakan tangkapan layar proses ujicoba API menggunakan postman.
 Kode yang baik adalah kode yang bisa dibaca dan dipakai oleh orang lain.
 
 4.Dari dokumen https://testbinar.docs.apiary.io/, menurut anda, apakah ada desian API yang kurang maupun keliru? Jika ada, tuliskan kekurangan-kekurangan desain tersebut dan bagaimana seharusnya dokumentasi itu ditulis.
+
+
+Answer:
+
+1.
+
+2.
+
+3.
+
+4. Dari dokumen https://testbinar.docs.apiary.io/, terdapat beberapa bug :
+  - Create User : saat saya testing di postman,production dan mock servernya output jsonnya berbeda,ketika saya create user di                   production output jsonnya sudah benar,ketika saya create user di mock server output jsonnya terdapat                           bug,contohnya ketika saya create user abc@gmail.com tapi output jsonnya bot@gmail.com, 
+                  seharusnya output jsonnya abc@gmail.com.
